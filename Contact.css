@@ -1,0 +1,53 @@
+/* Contact.css */
+
+body {
+  background-color: rgba(68, 80, 106, 0.8);
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+label {
+  color: white;
+  margin-bottom: 5px; /* Add some space between labels and inputs */
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+  color: black; /* Change text color inside inputs to black */
+  WIDTH:300PX;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  border-top: 1px solid white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
